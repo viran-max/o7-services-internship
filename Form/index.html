@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .main {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+
+    .Qualification-container {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+    }
+
+    .Qualification {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .Serial {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .Board {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .Passing {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .MarksObtain {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .Percentage {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .MaxMarks {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .LangugeKnown {
+      display: flex;
+      justify-content: space-around;
+    }
+    .language {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .reading {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .writing {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .spoken {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .Identification {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .submission {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  <body>
+    <h2 style="text-align: center">APPLICATION FORM</h2>
+    <form>
+      <fieldset>
+        <legend>Personal Details</legend>
+        <div class="main">
+          <div class="left-content">
+            <h3>Applicat's Full name</h3>
+
+            <select>
+              <option>--Select--</option>
+            </select>
+            <input type="text" />
+
+            <h3>Father's Name</h3>
+            <select>
+              <option>Mr.</option>
+            </select>
+            <input type="text" />
+
+            <h3>Gender</h3>
+            <label><input type="radio" name="gender" /> Male</label>
+            <label><input type="radio" name="gender" /> Female</label>
+            <label><input type="radio" name="gender" /> Others</label>
+
+            <h3>Martial Status</h3>
+            <select>
+              <option>--Select--</option>
+            </select>
+
+            <h3>Handicapped</h3>
+            <label><input type="radio" name="handicapped" />Yes</label>
+            <label><input type="radio" name="handicapped" />No</label>
+
+            <h3>EWS</h3>
+            <label><input type="radio" name="EWS" />Yes</label>
+            <label><input type="radio" name="EWS" />No</label>
+          </div>
+
+          <!-- RIght SIDE Content  -->
+          <div class="right-content">
+            <h3>Care Of</h3>
+            <label><input type="radio" name="care" />Parents</label>
+            <label><input type="radio" name="care" />Guardian</label>
+
+            <h3>Mother's Name</h3>
+            <select>
+              <option>Mrs.</option>
+            </select>
+            <input type="text" />
+
+            <h3>Date of Birth</h3>
+            <input type="date" />
+
+            <h3>Category</h3>
+            <select>
+              <option>--Select--</option>
+            </select>
+
+            <h3>Ex-Serviceman</h3>
+            <label><input type="radio" name="ex" />Yes</label>
+            <label><input type="radio" name="ex" />No</label>
+
+            <h3>Religion</h3>
+            <select>
+              <option>--Select--</option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- Second Filedset -->
+      <fieldset>
+        <legend>Contact Details</legend>
+        <div class="main">
+          <div class="left-content">
+            <h3>Mobile Number</h3>
+            <input type="text" />
+            <h3>Address Line 1</h3>
+            <input type="text" />
+            <h3>City</h3>
+            <input type="text" />
+            <h3>Pin Code</h3>
+            <input type="text" />
+          </div>
+
+          <div class="right-content">
+            <h3>Email ID</h3>
+            <input type="text" />
+            <h3>Address Line 2</h3>
+            <input type="text" />
+            <h3>State</h3>
+            <select>
+              <option>--Select--</option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+      <!-- THird Fileset -->
+      <fieldset>
+        <legend>Qualification details</legend>
+        <div class="Qualification-container">
+          <div class="Serial">
+            <h3>Sr No.</h3>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+          </div>
+
+          <div class="Qualification">
+            <h3>Qualification</h3>
+            <select>
+              <option>--Select--</option>
+            </select>
+            <select>
+              <option>--Select--</option>
+            </select>
+            <select>
+              <option>--Select--</option>
+            </select>
+            <select>
+              <option>--Select--</option>
+            </select>
+          </div>
+
+          <div class="Board">
+            <h3>Board/University</h3>
+            <input type="text" />
+            <input type="text" />
+            <input type="text" />
+            <input type="text" />
+          </div>
+
+          <div class="Passing">
+            <h3>Passing Year</h3>
+            <input type="text" />
+            <input type="text" />
+            <input type="text" />
+            <input type="text" />
+          </div>
+
+          <div class="MaxMarks">
+            <h3>Max Marks</h3>
+            <input type="text" />
+            <input type="text" />
+            <input type="text" />
+            <input type="text" />
+          </div>
+
+          <div class="MarksObtain">
+            <h3>Marks Obtain</h3>
+            <input type="text" />
+            <input type="text" />
+            <input type="text" />
+            <input type="text" />
+          </div>
+
+          <div class="Percentage">
+            <h3>Percentage</h3>
+            <input type="text" />
+            <input type="text" />
+            <input type="text" />
+            <input type="text" />
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- // Foruth FIeldset -->
+
+      <fieldset>
+        <legend>Language Knowledge</legend>
+        <div class="LangugeKnown">
+          <div class="language">
+            <span>Language</span>
+            <span>Hindi</span>
+            <span>English</span>
+            <span>Urdu</span>
+          </div>
+
+          <div class="reading">
+            <span>Reading</span>
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+          </div>
+          <div class="writing">
+            <span>Writing</span>
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+          </div>
+          <div class="spoken">
+            <span>Spoken</span>
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- Fifth details -->
+      <fieldset>
+        <legend>Identification Details</legend>
+        <div class="Identification">
+          <div class="left-side">
+            <h3>Aadhar Card Number</h3>
+            <input type="text" />
+            <h3>Upload Photo</h3>
+            <input type="file" />
+          </div>
+          <div class="right-side">
+            <h3>PAN Card Number</h3>
+            <input type="text" />
+            <h3>Upload Signature</h3>
+            <input type="file" />
+          </div>
+        </div>
+      </fieldset>
+
+      <div class="submission">
+        <button>Submit</button>&nbsp;&nbsp;&nbsp;
+        <button>Back</button>
+      </div>
+    </form>
+  </body>
+</html>
